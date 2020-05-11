@@ -1,0 +1,9 @@
+TYPEMAP
+plBSONMINKEY * BSONMINKEY_OBJECT
+OUTPUT
+BSONMINKEY_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+BSONMINKEY_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+MinKey.xs
+ppport.h
+README
+t/SequoiaDB-BSON-MinKey.t
+lib/SequoiaDB/BSON/MinKey.pm

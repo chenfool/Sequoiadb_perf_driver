@@ -1,0 +1,10 @@
+TYPEMAP
+plDomain * DOMAIN_OBJECT
+
+OUTPUT
+DOMAIN_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+DOMAIN_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

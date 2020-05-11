@@ -1,0 +1,10 @@
+TYPEMAP
+plBSONOID * BSONOID
+
+OUTPUT
+BSONOID
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+BSONOID
+   $var = ($type) SvIV((SV*) SvRV($arg));

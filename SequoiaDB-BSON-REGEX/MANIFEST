@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+REGEX.xs
+t/SequoiaDB-BSON-REGEX.t
+lib/SequoiaDB/BSON/REGEX.pm

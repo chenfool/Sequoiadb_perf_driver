@@ -1,0 +1,25 @@
+TYPEMAP
+plCollection * COLLECTION_OBJECT
+plCursor * CURSOR_OBJECT
+plLob * SDBLOB_OBJECT
+plDomain * SDBDOMAIN_OBJECT
+
+OUTPUT
+COLLECTION_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+CURSOR_OBJECT
+   sv_setref_pv($arg, "SequoiaDB::Cursor", (void *) $var);
+SDBLOB_OBJECT
+   sv_setref_pv($arg, "SequoiaDB::Lob", (void *) $var);
+SDBDOMAIN_OBJECT
+   sv_setref_pv($arg, "SequoiaDB::Domain", (void *) $var);
+
+INPUT
+COLLECTION_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));
+CURSOR_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));
+SDBLOB_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));
+SDBDOMAIN_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

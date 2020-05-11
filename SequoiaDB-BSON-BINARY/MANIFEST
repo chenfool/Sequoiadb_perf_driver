@@ -1,0 +1,8 @@
+BINARY.xs
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/SequoiaDB-BSON-BINARY.t
+lib/SequoiaDB/BSON/BINARY.pm

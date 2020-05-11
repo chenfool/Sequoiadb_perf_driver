@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+ReplicaGroup.xs
+t/SequoiaDB-ReplicaGroup.t
+lib/SequoiaDB/ReplicaGroup.pm

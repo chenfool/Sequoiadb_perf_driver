@@ -1,0 +1,9 @@
+TYPEMAP
+plBSONCODE * BSONCODE_OBJECT
+OUTPUT
+BSONCODE_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+BSONCODE_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

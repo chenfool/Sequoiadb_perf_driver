@@ -1,0 +1,6 @@
+Revision history for Perl extension SequoiaDB::CollectionSpace.
+
+0.01  Thu Nov 20 18:30:37 2014
+	- original version; created by h2xs 1.23 with options
+		-A -n SequoiaDB::CollectionSpace
+

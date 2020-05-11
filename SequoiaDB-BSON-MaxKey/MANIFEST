@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+MaxKey.xs
+ppport.h
+README
+t/SequoiaDB-BSON-MaxKey.t
+lib/SequoiaDB/BSON/MaxKey.pm

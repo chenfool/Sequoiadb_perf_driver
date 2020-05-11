@@ -1,0 +1,9 @@
+TYPEMAP
+plBSONMAXKEY * BSONMAXKEY_OBJECT
+OUTPUT
+BSONMAXKEY_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+BSONMAXKEY_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

@@ -1,0 +1,8 @@
+Changes
+Lob.xs
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/SequoiaDB-Lob.t
+lib/SequoiaDB/Lob.pm

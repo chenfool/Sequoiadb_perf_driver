@@ -1,0 +1,10 @@
+TYPEMAP
+plLob * LOB_OBJECT
+
+OUTPUT
+LOB_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+LOB_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

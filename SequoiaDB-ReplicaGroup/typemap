@@ -1,0 +1,14 @@
+TYPEMAP
+plReplicaGroup * REPLICAGROUP_OBJECT
+plNode * NODE_OBJECT
+
+OUTPUT
+REPLICAGROUP_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+NODE_OBJECT
+   sv_setref_pv($arg, "Sequoiadb::Node", (void *) $var);
+INPUT
+REPLICAGROUP_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));
+NODE_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

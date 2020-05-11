@@ -1,0 +1,15 @@
+TYPEMAP
+plCursor * CURSOR_OBJECT
+plBSONObj * BSONOBJ_OBJECT
+
+OUTPUT
+CURSOR_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+BSONOBJ_OBJECT
+   sv_setref_pv($arg, "SequoiaDB::BSON", (void *) $var);
+
+INPUT
+CURSOR_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));
+BSONOBJ_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

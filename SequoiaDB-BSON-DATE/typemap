@@ -1,0 +1,10 @@
+TYPEMAP
+plBSONDATE * BSONDATE_OBJECT
+
+OUTPUT
+BSONDATE_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+BSONDATE_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

@@ -1,0 +1,10 @@
+TYPEMAP
+plBSONBOOLEAN * BSONBOOLEAN
+
+OUTPUT
+BSONBOOLEAN
+   sv_setref_pv($arg, CLASS, (void *) $var);
+
+INPUT
+BSONBOOLEAN
+   $var = ($type) SvIV((SV*) SvRV($arg));

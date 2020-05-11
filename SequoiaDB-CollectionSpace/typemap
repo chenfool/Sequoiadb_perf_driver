@@ -1,0 +1,15 @@
+TYPEMAP
+plCollectionSpace * ANIMAL_OBJECT
+plCollection * CL_OBJECT
+
+OUTPUT
+ANIMAL_OBJECT
+   sv_setref_pv($arg, CLASS, (void *) $var);
+CL_OBJECT
+   sv_setref_pv($arg, "SequoiaDB::Collection", (void *) $var);
+
+INPUT
+ANIMAL_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));
+CL_OBJECT
+   $var = ($type) SvIV((SV*) SvRV($arg));

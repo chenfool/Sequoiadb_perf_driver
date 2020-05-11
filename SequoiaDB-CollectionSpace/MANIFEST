@@ -1,0 +1,8 @@
+Changes
+CollectionSpace.xs
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/SequoiaDB-CollectionSpace.t
+lib/SequoiaDB/CollectionSpace.pm

@@ -1,0 +1,6 @@
+Revision history for Perl extension SequoiaDB::BSON::MaxKey.
+
+0.01  Tue Dec 29 11:03:26 2015
+	- original version; created by h2xs 1.23 with options
+		-A -n SequoiaDB::BSON::MaxKey
+

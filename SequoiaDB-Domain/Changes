@@ -1,0 +1,6 @@
+Revision history for Perl extension SequoiaDB::Domain.
+
+0.01  Mon Feb  9 16:11:41 2015
+	- original version; created by h2xs 1.23 with options
+		-A -n SequoiaDB::Domain
+

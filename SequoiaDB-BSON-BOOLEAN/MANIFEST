@@ -1,0 +1,8 @@
+BOOLEAN.xs
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/SequoiaDB-BSON-BOOLEAN.t
+lib/SequoiaDB/BSON/BOOLEAN.pm

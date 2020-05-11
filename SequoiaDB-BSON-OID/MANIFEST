@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+OID.xs
+ppport.h
+README
+t/SequoiaDB-BSON-OID.t
+lib/SequoiaDB/BSON/OID.pm

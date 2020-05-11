@@ -1,0 +1,6 @@
+Revision history for Perl extension SequoiaDB::BSON::OID.
+
+0.01  Tue Nov 25 16:45:05 2014
+	- original version; created by h2xs 1.23 with options
+		-A -n SequoiaDB::BSON::OID
+

@@ -1,0 +1,8 @@
+Changes
+Makefile.PL
+MANIFEST
+ppport.h
+README
+Sdb.xs
+t/SequoiaDB-Sdb.t
+lib/SequoiaDB/Sdb.pm

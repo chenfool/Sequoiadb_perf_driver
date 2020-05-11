@@ -1,0 +1,8 @@
+Changes
+CODE.xs
+Makefile.PL
+MANIFEST
+ppport.h
+README
+t/SequoiaDB-BSON-CODE.t
+lib/SequoiaDB/BSON/CODE.pm
